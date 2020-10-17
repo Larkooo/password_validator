@@ -13,4 +13,5 @@ A password validator package for Dart
 | blacklist   | Blacklisted passwords ex. ["password", "p4ssw0rd"] |
 
 `PasswordValidator passwordValidator = new PasswordValidator(uppercase: 2, min: 6, digits: 5, blacklist: ["password", "mysecretpassword"]);`
+
 `passwordValidator.validate("password"); => will return false since "password is blacklisted and it doesnt have 5 digits"`
