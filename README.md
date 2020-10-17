@@ -1,8 +1,7 @@
 # password_validator
 
-`dependencies:
-    password_validator: `
 `import "package:password_validator/password_validator.dart";`
+
 A password validator package for Dart 
 
 ## Getting Started
