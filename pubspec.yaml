@@ -1,7 +1,7 @@
 name: password_validator
-description: A new Flutter package project.
+description: A password_validator package for Dart
 version: 0.0.1
-author:
+author: Aymen Djeghmoum
 homepage:
 
 environment:
