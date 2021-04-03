@@ -59,7 +59,7 @@ class PasswordValidator {
     int uppercaseLetters = 0;
     this.password.runes.forEach((int rune) {
       var char = new String.fromCharCode(rune);
-      if (char == char.toUpperCase()) {
+      if (int.tryParse(char) == null && char == char.toUpperCase()) {
         uppercaseLetters++;
       }
     });
